@@ -1691,8 +1691,7 @@ input[type=email] {
     color: inherit;
     opacity: .5
 }
-
-.formerize-placeholder {
+overlay.png
     color: rgba(124, 128, 129, .5)!important
 }
 
@@ -1702,7 +1701,7 @@ input[type=email] {
 }
 
 .image:before {
-    background: url(images/overlay.png);
+    /*background: url(images/overlay.png);*/
     content: '';
     height: 100%;
     left: 0;
@@ -2313,7 +2312,7 @@ input[type=reset].small {
 #banner {
     background-attachment: scroll, scroll, scroll, fixed;
     background-color: #645862;
-    background-image: url(images/light-bl.svg), url(images/light-br.svg), url(images/overlay.png), url(../../images/banner.jpg);
+    /*background-image: url(images/light-bl.svg), url(images/light-br.svg), url(images/overlay.png), url(../../images/banner.jpg);*/
     background-position: bottom left, bottom right, top left, top center;
     background-repeat: no-repeat, no-repeat, repeat, no-repeat;
     background-size: 25em, 25em, auto, cover;
@@ -2599,7 +2598,7 @@ body.index #main {
 #cta {
     background-attachment: scroll, scroll, scroll, fixed;
     background-color: #645862;
-    background-image: url(images/light-tl.svg), url(images/light-tr.svg), url(images/overlay.png), url(../../images/banner.jpg);
+    /*background-image: url(images/light-tl.svg), url(images/light-tr.svg), url(images/overlay.png), url(../../images/banner.jpg);*/
     background-position: top left, top right, top left, bottom center;
     background-repeat: no-repeat, no-repeat, repeat, no-repeat;
     background-size: 25em, 25em, auto, cover;
@@ -3142,7 +3141,7 @@ header .logo {
 }
 
 header .logo img {
-    width: 60%;
+    width: 170px;
     margin-top: 3px;
 }
 

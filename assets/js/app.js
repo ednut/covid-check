@@ -15,69 +15,24 @@
 	      templateUrl: "partials/home.html"
 	    })
 
-	    .state('about', {
-	      url: "/about",
-	      templateUrl: "partials/about.html"
+	    .state('date', {
+	      url: "/date",
+	      templateUrl: "partials/date.html"
 	    })
 
-	    .state('ourSolution', {
-	      url: "/ourSolution",
-	      templateUrl: "partials/ourSolution.html"
+	    .state('visualization', {
+	      url: "/visualization",
+	      templateUrl: "partials/visualization.html"
 	    })
 
-	    .state('getInvolved', {
-	      url: "/getInvolved",
-	      templateUrl: "partials/getInvolved.html"
+	    .state('stories', {
+	      url: "/stories",
+	      templateUrl: "partials/stories.html"
 	    })
 
-	    .state('data', {
-	      url: "/data",
-	      templateUrl: "partials/data.html"
-	    })
-
-	    .state('infographics', {
-	      url: "/infographics",
-	      templateUrl: "partials/infographics.html"
-	    })
-
-	    .state('contact', {
-	      url: "/contact",
-	      templateUrl: "partials/contact.html"
-	    })
-
-	    .state('blog', {
-	      url: "/blog",
-	      templateUrl: "partials/blog.html"
-	    })
-
-	    .state('qualityEducation', {
-	      url: "/qualityEducation",
-	      templateUrl: "partials/qualityEducation.html"
-	    })
-
-	    .state('outOfSchoolProject', {
-	      url: "/out-of-school-project",
-	      templateUrl: "partials/outOfSchoolProject.html"
-	    })
-
-	    .state('studentOnline', {
-	      url: "/student-online",
-	      templateUrl: "partials/studentOnline.html"
-	    })
-
-	    .state('public-education', {
-	      url: "/public-education",
-	      templateUrl: "partials/public-education.html"
-	    })
-
-	    .state('blogDetails', {
-	      url: "/blog-details",
-	      templateUrl: "partials/blogDetails.html"
-	    })
-
-	    .state('error', {
-	      url: "/error",
-	      templateUrl: "404.html"
+	    .state('report', {
+	      url: "/report",
+	      templateUrl: "partials/report.html"
 	    })
 
 	});
