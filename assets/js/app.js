@@ -15,23 +15,23 @@
 	      templateUrl: "partials/home.html"
 	    })
 
-	    .state('date', {
-	      url: "/date",
+	    .state('data', {
+	      url: "/data",
 	      templateUrl: "partials/date.html"
 	    })
 
-	    .state('visualization', {
-	      url: "/visualization",
+	    .state('notifyVerify', {
+	      url: "/notify-and-verify",
 	      templateUrl: "partials/visualization.html"
 	    })
 
-	    .state('stories', {
-	      url: "/stories",
+	    .state('metre', {
+	      url: "/metre",
 	      templateUrl: "partials/stories.html"
 	    })
 
-	    .state('report', {
-	      url: "/report",
+	    .state('probe', {
+	      url: "/probe",
 	      templateUrl: "partials/report.html"
 	    })
 
