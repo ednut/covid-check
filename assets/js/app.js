@@ -15,24 +15,24 @@
 	      templateUrl: "partials/home.html"
 	    })
 
-	    .state('data', {
-	      url: "/data",
-	      templateUrl: "partials/date.html"
+	    .state('notify', {
+	      url: "/notify",
+	      templateUrl: "partials/notify.html"
 	    })
 
-	    .state('notifyVerify', {
-	      url: "/notify-and-verify",
-	      templateUrl: "partials/visualization.html"
+	    .state('verify', {
+	      url: "/verify",
+	      templateUrl: "partials/verify.html"
 	    })
 
 	    .state('metre', {
 	      url: "/metre",
-	      templateUrl: "partials/stories.html"
+	      templateUrl: "partials/metre.html"
 	    })
 
 	    .state('probe', {
 	      url: "/probe",
-	      templateUrl: "partials/report.html"
+	      templateUrl: "partials/probe.html"
 	    })
 
 	});
